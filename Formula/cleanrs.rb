@@ -1,28 +1,28 @@
 class Cleanrs < Formula
   desc "Storage analyzer with honest reclaimability intervals and developer cache cleanup"
   homepage "https://github.com/bencetotht/cleanrs"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bencetotht/cleanrs/releases/download/v0.1.0/cleanrs-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "75db994b60cf88ca19ae5f9e4b8c2556af1f3a6e5ff3eb039a5460d745a90a8f"
+      url "https://github.com/bencetotht/cleanrs/releases/download/v0.2.0/cleanrs-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "04592409d74095ec07ca2b83fa6fe65d7936985c000f76ddeab62dbc5d2cf891"
     end
     on_intel do
-      url "https://github.com/bencetotht/cleanrs/releases/download/v0.1.0/cleanrs-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "4d9c0b94501605efd84f9cbf5d437036bca4f7492d4137a6c9baede66a01de2f"
+      url "https://github.com/bencetotht/cleanrs/releases/download/v0.2.0/cleanrs-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fff424f2f2ce8c4f3947411db2c48ff2fb556e60ef5e4aa38911018e0e28d160"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bencetotht/cleanrs/releases/download/v0.1.0/cleanrs-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f4f7e5ba8e91e36ac36ac39678f5922859ce189d01f1067bd6e4a49de7161f02"
+      url "https://github.com/bencetotht/cleanrs/releases/download/v0.2.0/cleanrs-0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4d6cb96c1e55f1783735f66faf0e01d76f3c23b309eda38f233947a07725c0e3"
     end
     on_intel do
-      url "https://github.com/bencetotht/cleanrs/releases/download/v0.1.0/cleanrs-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "3ab7ee9dd1a3d99a6f3100cf52ba8cf41f4e4fce03255d7d2a84778728ac0db5"
+      url "https://github.com/bencetotht/cleanrs/releases/download/v0.2.0/cleanrs-0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "358da8bdb89298552f168025fb0672669aa592f631448511b6dc392bc8db3da4"
     end
   end
 
